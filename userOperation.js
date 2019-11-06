@@ -1,20 +1,19 @@
 
- function arrayOperation (){
+ function arrayOperation (user){
 
     let _arrayData=[];
+
+
     this.arrayMethod=function(userModel){
                _arrayData.push(userModel);
     }
 
-    
-    this.printMethod= function(){
 
-
-        _arrayData
-        .forEach((userModelobj1)=>{
+    this.printMethod= function(userModel){
+    _arrayData
+        .forEach((userModel)=>{
             console.log(`${userModelobj1.firstName}${userModelobj1.lastName}`)
         });
     };
-
+ 
 };
-

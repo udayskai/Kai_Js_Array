@@ -24,5 +24,5 @@ userModelobj3.firstName="rahul";
 userModelobj3.lastName="godke";
 arrayOperationobj.arrayMethod(userModelobj3);
 
-let userOperionobj= new arrayOperation;
-userOperionobj.printMethod();
+let userOperionobj1= new arrayOperation;
+userOperionobj1.printMethod();
