@@ -26,3 +26,4 @@ arrayOperationobj.arrayMethod(userModelobj3);
 
 let userOperionobj1= new arrayOperation;
 userOperionobj1.printMethod();
+userOperionobj1.extra(userOperionobj1);
